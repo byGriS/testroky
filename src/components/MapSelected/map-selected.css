@@ -1,0 +1,21 @@
+.map-selected{
+  height: 100%;
+}
+.block{
+  position: absolute;
+  border: 1px solid rgb(233, 233, 233);
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  right: 50px;
+  bottom: 50px;
+  background: white;
+  padding: 35px;
+}
+.block-count{
+  color: #3c8cae;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.block-desc{
+  font-size: 0.8rem;
+}

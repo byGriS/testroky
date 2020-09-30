@@ -1,0 +1,88 @@
+.sidebar {
+  background: white;
+  padding: 20px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.sidebar-title {
+  font-weight: bold;
+  color: #3c8cae;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 60px;
+}
+
+.sidebar-control {
+  box-sizing: border-box;
+  width: 100%;
+  border: 3px solid #f3f5f8;
+  padding: 8px;
+  display: flex;
+}
+
+.sidebar-control input {
+  border: none;
+  outline: none;
+  flex: 1;
+}
+
+.sidebar-control select {
+  border: none;
+  outline: none;
+  flex: 1;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") right center no-repeat;
+}
+
+.sidebar-control option{
+  margin: 5px;
+}
+
+.sidebar-control svg {
+  min-width: 20px;
+  margin-right: 10px;
+}
+
+.btn-apply {
+  height: 60px;
+  background: #3c8cae;
+  border: none;
+  color: rgb(232, 232, 232);
+  outline: none;
+}
+
+.btn-apply:hover {
+  cursor: pointer
+}
+
+.btn-apply:focus {
+  border: 2px solid #2d6881;
+}
+
+.sidebar-footer a {
+  text-decoration: none;
+  color: #3c8cae;
+  margin-bottom: 15px;
+}
+
+.invalid{
+  outline:1px solid red!important;
+}
+.error-text{
+  color: red;
+  font-size: small;
+}
+
+.react-tel-input .form-control{
+  padding: 3px!important;
+  border: none!important;
+  line-height: 15px!important;
+  height: 20px!important;
+  width: 100%!important;
+}
+.flag-dropdown{
+  display: none;
+}
